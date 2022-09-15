@@ -1,11 +1,13 @@
+import React from "react";
 import Navbar from "../components/Navbar";
 import MainLayout from "../layouts/MainLayout";
-export default function Home() {
+
+export default function home() {
   return (
     <MainLayout>
       <div>
-        <div className="vstack p-5">
-          <div className="mx-auto d-block">
+        <div class="vstack p-5">
+          <div class="mx-auto d-block">
             <img
               src="me2.jpg"
               width="300"
